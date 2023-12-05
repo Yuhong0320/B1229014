@@ -1,0 +1,6 @@
+!git clone https://github.com/rajeevratan84/image-segmentation-keras.git
+
+%cd image-segmentation-keras
+!python setup.py install
+
+!wget https://github.com/divamgupta/datasets/releases/download/seg/dataset1.zip && unzip -q dataset1.zip
